@@ -57,6 +57,168 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+/****** Header ***********/
+header {
+    width: auto;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 61.09px;
+    height: 19px;
+    padding-top: 30px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.padding-top {
+    padding-top: 16px;
+    margin-left: 20px;
+}
+.padding-top:hover {
+    color: blue;
+    border-top: solid 2px blue;
+    position: relative; top: -2px;
+    }
+
+/****** Titres, barre de recherche ***********/
+
+h1 {
+    font-size: 22px;
+    padding-top: 40px;
+}
+.titre-sub {
+    margin: 0;
+}
+
+.barre_de_recherche {
+    width: 377px;
+    height: 49px;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.icon-recherche {
+    width: 50px;
+    height: 49px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.texte-recherche {
+    display: flex;
+}
+
+input {
+    width: 195px;
+    height: 49px;
+    border: none;
+    border-style: none;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    outline: none;
+    border: 0.5px solid #F2F2F2;
+}
+
+.bouton-recherche {
+    background-color: #0065FC;
+    width: 132px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+/****** Filtres ***********/
+
+.filtres {
+    display: flex;
+    gap: 10px;
+}
+
+.filtres h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.economique {
+    width: 173px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+}
+.economique:hover {
+    background-color:#DEEBFF;
+}
+.familial {
+    width: 134px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+}
+.familial:hover {
+    background-color: #DEEBFF;
+}
+.romantique {
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+}
+.romantique:hover {
+    background-color: #DEEBFF;
+}
+.pepites {
+    width: 167px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+}
+.pepites:hover {
+    background-color: #DEEBFF;
+}
+
+.icon {
+    padding:10px;
+}
+
+.bulle-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -76,6 +238,68 @@ a {
     width: 65%;
 }
 
+.hebergement-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hebergement-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hebergement-cards .card:hover {
+    box-shadow: 0px 0px 10px 0px #0065FC;
+}
+
+.hebergement-cards .card {
+    width: 250.33px;
+    height: 207.25px;
+    margin-top: 33px;
+}
+
+.hebergement-cards img {
+    width: 100%;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergement-cards .card-content {
+    width: 100%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergement-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergement-cards .card-subtitle {
+margin-top: 10px;
+margin-bottom: 4px;
+}
+
+.hebergement-cards .card-rating {
+    margin-bottom: 5px;
+}
+
+.afficher-plus {
+    padding-top: 15px;
+}
+
+.afficher-plus:hover {
+    text-decoration: underline;
+}
+
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -90,6 +314,10 @@ a {
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+}
+
+.populaires-cards .card:hover{
+    box-shadow: 0px 0px 10px 0px #0065FC;
 }
 
 .populaires-cards img {
@@ -121,9 +349,91 @@ a {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
 
+.activites {
+    margin-top: 20px;
+    padding: 30px;
+}
 
+.card-activite {
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
 
+.card-activite:hover {
+    transform: scale(1);
+    box-shadow: 0px 0px 10px 0px #0065FC;
+}
+.activites .section-title {
+    margin-bottom: 25px;
+}
+
+.activites-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activites-cards img {
+    width: 297.5px;
+    height: 439px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.activites-cards .card-content {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.activites-cards .card-title {
+    padding-left: 20px;
+}
+
+/****** Footer ***********/
+
+footer {
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+.propos {
+    padding-left: 20px;
+    padding-right: 280px;
+}
+
+.propos a {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.propos a:hover {
+    text-decoration: underline;
+}
+
+.hebergements-footer {
+    padding-right: 280px;
+}
+
+.hebergements-footer a {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.hebergements-footer a:hover {
+    text-decoration: underline;
+}
+
+.assistance a {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.assistance a:hover {
+    text-decoration: underline;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
