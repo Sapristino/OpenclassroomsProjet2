@@ -21,37 +21,43 @@
                 <div class="logo"><img src="./images/logo/Booki.png" alt="Logo Booki"></div>
                 <nav>
                     <ul>
-                    <div class="padding-top"><li><a href="#hebergements">Hébergements</a></li></div>
-                    <div class="padding-top"><li><a href="#activites">Activités</a></li></div>
+                    <div class="padding-bottom"><div class="padding-top"><li><a href="#hebergements">Hébergements</a></li></div></div>
+                    <div class="padding-bottom"><div class="padding-top"><li><a href="#activites">Activités</a></li></div></div>
                     </ul>
                 </nav>
             </div>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p class="titre-sub">En plein centre-ville ou en pleine nature</p>
+
             <div class="barre_de_recherche">
-                <div class="icon-recherche"> <i class="fas fa-map-marker-alt"></i></div>
-                <div class="texte-recherche"> <input type="search" placeholder="Marseille, France"></div>
-                <div class="bouton-recherche">Rechercher</div>
+                <div class="bordure-recherche">
+                    <div class="icon-recherche"> <i class="fas fa-map-marker-alt"></i></div>
+                    <div class="texte-recherche"> <input type="search" placeholder="Marseille, France"></div>
+                    <div class="bouton-recherche">
+                        <h3 class="recherche">Rechercher</h3>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
             </div>
                 <div class="filtres">
                     <h3>Filtres</h3>
                     <div class="boutons-filtre">
-                    <div class="economique">
-                        <div class="icon"><i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i></div>
-                        <a href="#"><h3>Économique</h3></a>
-                    </div>
-                    <div class="familial">
-                        <div class="icon"><i class="fa-solid fa-person" aria-hidden="true"></i></div>
-                        <a href="#"><h3>Familial</h3></a>                   
-                    </div>
-                    <div class="romantique">
-                        <div class="icon"><i class="fa-solid fa-heart" aria-hidden="true"></i></div>
-                        <a href="#"><h3>Romantique</h3></a>
-                    </div>
-                    <div class="pepites">
-                        <div class="icon"><i class="fa-solid fa-fire"></i></div>
-                        <a href="#"><h3>Nos pépites</h3></a>       
-                    </div>
+                        <div class="economique">
+                            <div class="icon"><i class="fa-solid fa-money-bill-wave fa-lg" aria-hidden="true"></i></div>
+                            <a href="#"><h3>Économique</h3></a>
+                        </div>
+                        <div class="familial">
+                            <div class="icon"><i class="fa-solid fa-person fa-lg" aria-hidden="true"></i></div>
+                            <a href="#"><h3>Familial</h3></a>                   
+                        </div>
+                        <div class="romantique">
+                            <div class="icon"><i class="fa-solid fa-heart fa-lg" aria-hidden="true"></i></div>
+                            <a href="#"><h3>Romantique</h3></a>
+                        </div>
+                        <div class="pepites">
+                            <div class="icon"><i class="fa-solid fa-fire fa-lg"></i></div>
+                            <a href="#"><h3>Nos pépites</h3></a>       
+                        </div>
                     </div>
                 </div>
             <div class="bulle-info">
@@ -61,7 +67,7 @@
         </header>
         <main>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
@@ -245,7 +251,7 @@
                     </div>
                 </section>
             </div>
-            <div class="activites">
+            <div class="activites" id="activites">
                 <h2 class="section-title">Activités à Marseille</h2>
                 <div class="activites-cards">
                     <a href="#">
