@@ -3,6 +3,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html, body {
+    margin : 0;
+    padding: 0;
+}
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -11,6 +16,10 @@
 
 .fa-solid {
     color: var(--main-color);
+}
+
+.fa-regular {
+    color: #DEEBFF;
 }
 
 body {
@@ -68,23 +77,23 @@ a {
 header img {
     width: 61.09px;
     height: 19px;
-    padding-top: 30px;
+    padding: 30px 0px 30px 0px;
 }
 
-ul {
+.nav {
     display: flex;
-    list-style-type: none;
 }
 
 .padding-top {
-    padding-top: 16px;
+    margin-top: 3px;
+    padding-top: 10px;
     padding-bottom: 16px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .padding-top:hover {
-    color: blue;
-    border-top: solid 2px blue;
-    position: relative; top: -2px;
+    color: #0065FC;
+    border-top: solid 3px #0065FC;
+    position: relative; top: -3px;
     }
 
 /****** Titres, barre de recherche ***********/
@@ -93,6 +102,7 @@ h1 {
     font-size: 22px;
     padding-top: 40px;
 }
+
 .titre-sub {
     margin: 0;
 }
@@ -112,7 +122,6 @@ h1 {
 
 .icon-recherche {
     width: 50px;
-    height: 49px;
     background-color: #F2F2F2;
     display: flex;
     justify-content: center;
@@ -127,14 +136,12 @@ h1 {
 
 input {
     width: 195px;
-    height: 49px;
-    border: none;
     border-style: none;
-    padding-left: 30px;
+    outline: none;
+    padding-left: 18%;
     font-size: 16px;
     font-weight: bold;
     color: black;
-    outline: none;
 }
 
 .bouton-recherche i {
@@ -154,10 +161,6 @@ input {
     cursor: pointer;
 }
 
-.recherche {
-    padding-left: 8%;
-}
-
 /****** Filtres ***********/
 
 .filtres {
@@ -174,6 +177,7 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 16px;
 }
 
 .economique {
@@ -226,15 +230,14 @@ input {
 }
 
 .icon {
-    padding:10px;
+    padding:5px;
 }
 
 .bulle-info {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -292,7 +295,6 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-sizing: border-box;
 }
 
 .hebergement-cards .card-title {
@@ -301,8 +303,8 @@ input {
 }
 
 .hebergement-cards .card-subtitle {
-margin-top: 10px;
-margin-bottom: 4px;
+    margin-top: 10px;
+    margin-bottom: 4px;
 }
 
 .hebergement-cards .card-rating {
@@ -347,7 +349,6 @@ margin-bottom: 4px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-sizing: border-box;
 }
 
 .populaires-cards .card-title {
@@ -371,7 +372,7 @@ margin-bottom: 4px;
 
 .activites {
     margin-top: 20px;
-    padding: 30px;
+    padding: 30px 35px 60px 35px;
 }
 
 .card-activite {
@@ -419,6 +420,7 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: #F2F2F2;
+    padding: 0% 2%;
     
 }
 
@@ -519,10 +521,16 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-    body {
-        width: 100%;
+    .main-container {
+        padding: 0px 0px;
     }
 
+    .activites {
+        padding: 100px 35px;
+    }
+    .header-partie2 {
+        padding: 0% 3%;
+    }
     .logo-nav {
         flex-direction: column;
     }
@@ -534,7 +542,7 @@ footer {
     }
 
     .logo-nav {
-        padding-bottom: 20px;
+        padding-bottom: 25px;
     }
 
     ul {
@@ -557,6 +565,10 @@ footer {
         display: flex;
         justify-content: center;
         align-content: center;
+    }
+
+    .padding-bottom {
+        border-bottom: solid 2px #F2F2F2;
     }
 
     .padding-bottom:hover {
@@ -587,6 +599,10 @@ footer {
     .bouton-recherche i {
         display: initial;
         color: white;
+    }
+
+    .filtres h3 {
+        font-size: 14px;
     }
 
     .economique, .familial, .romantique, .pepites {
