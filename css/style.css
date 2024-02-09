@@ -88,8 +88,8 @@ header img {
 }
 
 nav {
-    width: 344px;
-    height: 35px;
+    width: 21.5em;
+    height: 2.1875em;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -216,7 +216,7 @@ input {
 
 .boutons-filtre {
     display: flex;
-    gap: 15px;
+    gap: 0.9375em;
 }
 .filtres h3 {
     display: flex;
@@ -247,7 +247,7 @@ input {
     flex-wrap: wrap;
     align-items: center;
     gap: 0.6875em;
-    padding-bottom: 10px;
+    padding-bottom: 0.625em;
 }
 
 .bulle-info p {
@@ -260,7 +260,7 @@ input {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
-    gap: 15px;
+    gap: 0.9375em;
 }
 
 .hebergements-and-populaires section {
@@ -332,7 +332,7 @@ input {
     width: 32%;
     padding: 1.875em;
     box-sizing: border-box;
-    gap: 30px;
+    gap: 1.875em;
 }
 
 .populaires-title {
@@ -344,7 +344,7 @@ input {
 .populaires-cards {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875em;
 }
 
 .populaires-cards .card {
@@ -384,7 +384,7 @@ input {
 .activites {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875em;
     padding: 1.875em;
 }
 
@@ -485,14 +485,14 @@ footer h3{
 /** module recherche **/
 
 .module-recherche {
-    height: 322px;
+    height: 20.125em;
 }
 
 .filtres {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 1.25em;
 }
 
 .bulle-info {
@@ -512,7 +512,7 @@ footer h3{
 
     .populaires {
         width: 100%;
-        height: 252px;
+        height: 15.75em;
         margin-top: 3.125em;
     }
 
@@ -524,7 +524,7 @@ footer h3{
 
     .populaires-cards a {
         width: 31.8%;
-        height: 270px;
+        height: 16.875em;
 
     }
 
@@ -539,11 +539,11 @@ footer h3{
 /**activités cards **/
 
     .activites-cards img {
-    height: 200px;
+    height: 12.5em;
     }
 
     .activites-cards .card {
-        height: 270px;
+        height: 16.875em;
     }
 }
 
@@ -553,9 +553,9 @@ footer h3{
 /** Marges globales **/
 
     .main-container {
-        max-width: 375px;
-        min-width: 320px;
-        padding: 0px 0px;
+        max-width: 23.4375em;
+        min-width: 20em;
+        padding: 0em 0em;
         align-items: center;
     }
 
@@ -563,7 +563,7 @@ footer h3{
 
     .logo-nav {
     flex-direction: column;
-    height: 115px;
+    height: 7.1875em;
     }
 
     .logo {
@@ -576,17 +576,17 @@ footer h3{
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 36px;
-    border-bottom: solid 2px #F2F2F2;
+    height: 2.25em;
+    border-bottom: solid 0.125em #F2F2F2;
     }
 
     .bordure-nav-desktop:hover {
-    border-top: 0px;
-    position: relative; top: 0px;
+    border-top: 0em;
+    position: relative; top: 0em;
     }
 
     .bordure-nav-mobile:hover {
-    border-bottom: solid 2px #0065FC;
+    border-bottom: solid 0.125em #0065FC;
     }
 
 /***** Main *****/
@@ -598,8 +598,8 @@ main {
 /*** Module recherche ***/
 
     .module-recherche {
-        padding: 0 20px;
-        min-height: 432px;
+        padding: 0em 1.25em;
+        min-height: 27em;
         gap: 10%;
     }
 
@@ -614,7 +614,7 @@ main {
 
     .barre-de-recherche {
         width: 95%;
-        height: 49px;
+        height: 4.9375em;
     }
 
     input {
@@ -622,9 +622,9 @@ main {
     }
 
     .bouton-recherche {
-        width: 49px;
-        height: 49px;
-        border-radius: 15px;
+        width: 3.0625em;
+        height: 3.0625em;
+        border-radius: 0.9375em;
     }
 
     .bouton-recherche p {
@@ -639,18 +639,18 @@ main {
 /* filtres */
 
     .filtres {
-        height: 161px;
+        height: 10.0625em;
     }
 
     .boutons-filtre {
         flex-wrap: wrap;
-        gap:10px;
+        gap: 0.0625em;
     }
     
     .economique, .familial, .romantique, .pepites {
         width: 46%;
         box-sizing: border-box;
-        font-size: 14px;
+        font-size: 0.875em;
         justify-content: flex-start;
         gap: 5%;
         padding: 0% 3%;
@@ -663,7 +663,7 @@ main {
 /* Bulle Info */
 
     .bulle-info {
-        height: 38px;
+        height: 2.375em;
         flex-wrap: nowrap;
     }
 
@@ -682,17 +682,17 @@ main {
 
 .populaires {
     width: 100%;
-    height: 569px;
+    height: 35.5625em;
     margin: 0;
-    padding: 30px 20px;
-    gap: 15px;
+    padding: 1.875em 1.25em;
+    gap: 0.9375em;
     box-sizing: border-box;
 }
 
 .populaires-cards {
     flex-direction: column;
-    height: 146px;
-    gap: 15px;
+    height: 9.125em;
+    gap: 0.9375em;
 }
 
 .populaires-cards a {
@@ -702,30 +702,30 @@ main {
 
 .populaires-cards .card {
     width: 100%;
-    height: 146px;
+    height: 9.125em;
     box-sizing: border-box;
 }
 
 .populaires-cards img {
     width: 35%;
     height: 100%;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 1.25em 0em 0em 1.25em;
 }
 
 /** Hébergements **/
 
 .hebergements-and-populaires .hebergements {
     background-color: white;
-    padding: 20px;
+    padding: 1.25em;
     width: 100%;
-    height: 1435.5px;
-    gap: 15px;
+    height: 89.71875em;
+    gap: 0.9375em;
 }
 
 .hebergement-cards {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.9375em;
 }
 
 .hebergement-cards a {
@@ -734,7 +734,7 @@ main {
 
 .hebergement-cards .card {
     width: 100%;
-    height: 207.25px; 
+    height: 12.953125em; 
 }
     
 /** Activités **/
@@ -749,7 +749,7 @@ main {
 .activites-cards {
     width: 100%;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.9375em;
 }
 
 .activites-cards a {
@@ -759,12 +759,12 @@ main {
 
 .activites-cards .card {
     width: 100%;
-    height: 200px;
+    height: 12.5em;
 }
 
 .activites-cards img {
     width: 100%;
-    height: 141px;
+    height: 8.8125em;
 }
 
 /*** Footer ***/
@@ -772,8 +772,8 @@ main {
     footer {
         width: 100%;
         flex-direction: column;
-        padding: 30px;
-        gap: 50px;
+        padding: 1.875em;
+        gap: 3.125em;
         box-sizing: border-box;
     }
 
