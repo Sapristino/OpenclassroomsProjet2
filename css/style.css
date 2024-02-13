@@ -217,6 +217,7 @@ input {
 .boutons-filtre {
     display: flex;
     gap: 0.9375em;
+    cursor: pointer;
 }
 .filtres h3 {
     display: flex;
