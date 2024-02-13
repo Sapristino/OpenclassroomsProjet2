@@ -644,7 +644,7 @@ main {
 
     .boutons-filtre {
         flex-wrap: wrap;
-        gap: 0.0625em;
+        justify-content: center;
     }
     
     .economique, .familial, .romantique, .pepites {
