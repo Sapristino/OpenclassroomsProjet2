@@ -635,6 +635,8 @@ main {
     .bouton-recherche i {
         display: initial;
         color: white;
+        width: 49px;
+        margin-left: 16px;
     }
 
 /* filtres */
